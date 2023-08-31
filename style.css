@@ -1,0 +1,243 @@
+/* common shared styles*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #cf2080;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 35px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/* header related styles */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* hot deal section styles */
+.deal-section{
+
+  padding: 70px;
+}
+.deal {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deal-content {
+    max-width: 550px;
+}
+
+.deal-description{
+    text-align: center;
+    font-size: 15px;
+}
+
+.deal .profile-pic {
+    width: 250px;
+    margin-left: 70px;
+
+}
+.deal-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 7%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.deal-btn-primary{
+    border-radius: 5px;
+    background: #cf2080;
+    border: 0;
+    margin-left: 30%;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 35px;  
+}
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* extra section */
+.extra-container {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    background-color: #c2c2c2;
+}
+.extra img{
+   width: 300px;
+   height: 300px;
+   margin-left: 20%;
+}
+
+/* skills related styles */
+
+#instra-description {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+
+.skills-container img {
+   width: 250px;
+   height:300px ;
+   /* padding-left: 40% ; */
+  
+}
+
+/* Resume Section styles */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-institute,
+.resume-item-description {
+    color: #757575;
+}
+
+.resume-container hr {
+    margin: 30px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer style */
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
