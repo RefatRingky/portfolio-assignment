@@ -169,12 +169,18 @@ main section {
    width: 350px;
    height: 400px;
    background-color: rgb(203, 241, 241);
+   border-top-left-radius: 200px 150px;
+   border-top-right-radius: 200px 150px;
+   padding-top: 15%;
  
 }
 .feature3 img{
    width: 350px;
    height: 400px;
    background-color: rgb(211, 222, 241);
+   border-top-left-radius: 200px 150px;
+   border-top-right-radius: 200px 150px;
+   padding-top: 15%;
  
 }
 
