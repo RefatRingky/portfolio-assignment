@@ -143,13 +143,17 @@ main section {
     margin-top: 130px;
 }
 /* feature section styles */
+.feature-description-section{
+    padding-top: 5%;
+
+}
 .feature-container {
     display: flex;
     gap: 20px;
     padding: 50px;
     text-align: center;
     /* margin-left: 5%; */
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .feature-image-section{
     /* margin-left: 10%; */
