@@ -227,6 +227,33 @@ main section {
    /* padding-left: 40% ; */
   
 }
+.skills-container-2 img {
+   width: 250px;
+   height:300px ;
+   /* padding-left: 40% ; */
+  
+}
+.skills-container-2{
+    padding-top: 2%;
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+.hot-sell-product{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+.hot-sell-product img {
+    width: 350px;
+    height:400px ;
+    /* padding-left: 40% ; */
+   
+ }
+ .off-service{
+    margin-top: -110%;
+ }
+ 
 
 
 
@@ -235,7 +262,7 @@ footer {
     
     gap: 100px;
     background: black;
-    margin-top: 100px;
+    margin-top: 500px;
     padding: 130px 200px;
 }
 
