@@ -239,10 +239,13 @@ main section {
     gap: 20px;
     padding: 50px;
 }
+.hot-sell-section{
+    padding-top: 20%;
+}
 .hot-sell-product{
     display: flex;
     gap: 20px;
-    padding: 50px;
+    padding: 5%;
 }
 .hot-sell-product img {
     width: 350px;
@@ -253,8 +256,20 @@ main section {
  .off-service{
     margin-top: -110%;
  }
- 
-
+ .latest-deal-section{
+    padding-top: 2%;
+ }
+ .latest-deal-section img{
+    width: 1000px;
+    margin-left: 85px;
+    padding-bottom: 5%; 
+ }
+.input-section{
+    display: flex;
+    gap: 10px;
+    margin-top: -20%;
+    margin-left: 40%;
+}
 
 
 /* footer style */
